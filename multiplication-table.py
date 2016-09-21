@@ -22,4 +22,10 @@ Height of multiplication table: 8
   8  16  24  32  40  48  56  64  72  80
 """
 width = int(input("Width of multiplication table: "))
-height = 
+height = int(input("Height of multiplication table: "))
+
+list1 = [range(1, width)]
+for h in range(1, height):
+    for w in range(1, width):
+        row = lamda x,y: y*x
+        print 
